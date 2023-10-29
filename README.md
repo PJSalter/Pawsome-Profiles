@@ -47,13 +47,13 @@ To use the "Pawsome-Profiles" project, follow these steps:
 
 For instance, if you provide the following input:
 
-```bash
-Dobby
-2
-Kreacher
-3
-German Schnauzer
-```
+   ```bash
+   Dobby
+   2
+   Kreacher
+   3
+   German Schnauzer
+   ```
 
 The program will produce the following output:
 
@@ -73,7 +73,7 @@ Pet Information:
 
 The `Pet` class is the base class and has the following attributes and methods:
 
-- ###### Attributes:
+  - ###### Attributes:
 
 - `petName` (protected): Stores the pet's name.
 - `petAge` (protected): Stores the pet's age.
@@ -90,11 +90,11 @@ The `Pet` class is the base class and has the following attributes and methods:
 
 The `Dog` class is a derived class of `Pet` and has the following additional attributes and methods:
 
-- ###### Attributes:
+   - ###### Attributes:
 
 `dogBreed` (private): Stores the dog's breed.
 
-- ###### Methods:
+   - ###### Methods:
 
 - `SetBreed(string userBreed)`: Sets the dog's breed.
 - `GetBreed()`: Retrieves the dog's breed.
